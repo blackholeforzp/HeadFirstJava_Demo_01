@@ -4,10 +4,10 @@ import java.util.List;
 
 public class SimpleDotcom {
 	
-	private List locationCells;
+	private List<Integer> locationCells;
 	int numOfHits = 0;
 	
-	public void setLocationCells(List locas){
+	public void setLocationCells(List<Integer> locas){
 		locationCells = locas;
 	}
 	
